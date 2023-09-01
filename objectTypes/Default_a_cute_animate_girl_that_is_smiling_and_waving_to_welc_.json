@@ -1,0 +1,37 @@
+{
+	"name": "Default_a_cute_animate_girl_that_is_smiling_and_waving_to_welc_",
+	"plugin-id": "Sprite",
+	"sid": 616556503086812,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 640,
+						"height": 960,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 311286,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 680778427426512,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

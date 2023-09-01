@@ -1,0 +1,48 @@
+{
+	"name": "Lobby Events",
+	"events": [
+		{
+			"eventType": "comment",
+			"text": "Global Variables"
+		},
+		{
+			"eventType": "variable",
+			"name": "MyUsername",
+			"type": "string",
+			"initialValue": "",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 992755561288758
+		},
+		{
+			"eventType": "variable",
+			"name": "RoomName",
+			"type": "string",
+			"initialValue": "CantoMahjong-Dev",
+			"comment": "Dev Channel for Canto-Mahjong",
+			"isStatic": false,
+			"isConstant": true,
+			"sid": 956564763509278
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 712862096595646
+				}
+			],
+			"actions": [
+				{
+					"id": "set-focused",
+					"objectClass": "NameTextBox",
+					"sid": 891984075934562
+				}
+			],
+			"sid": 984757195411724
+		}
+	],
+	"sid": 947980423976024
+}

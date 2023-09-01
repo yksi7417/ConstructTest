@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+
+# Construct 3 
+*.uistate.json
