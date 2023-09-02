@@ -1,0 +1,10 @@
+**/*[Tt]estTitleData.json*
+
+bin/
+obj/
+.vs/
+
+*.map
+*.user
+
+testTitleData.json
