@@ -19,10 +19,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 642,
-						"y": 359.5,
-						"width": 1282,
-						"height": 719,
+						"x": 652,
+						"y": 361,
+						"width": 1448,
+						"height": 881,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -111,10 +111,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 302,
-						"y": 91,
-						"width": 512,
-						"height": 128,
+						"x": 373.5,
+						"y": 370,
+						"width": 682,
+						"height": 696,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -130,7 +130,7 @@
 				{
 					"type": "Label",
 					"properties": {
-						"text": "Your Name:",
+						"text": "Username",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 16,
@@ -154,10 +154,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 53,
-						"y": 87,
-						"width": 135,
-						"height": 45,
+						"x": 58,
+						"y": 80,
+						"width": 116,
+						"height": 30,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -189,10 +189,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 185,
-						"y": 91,
-						"width": 150,
-						"height": 22,
+						"x": 175,
+						"y": 80,
+						"width": 175,
+						"height": 30,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -214,9 +214,9 @@
 						"bold": false,
 						"italic": false,
 						"color": [
-							0.3137254901960784,
-							0.10980392156862745,
-							0.792156862745098,
+							0,
+							0,
+							0,
 							1
 						],
 						"horizontal-alignment": "left",
@@ -230,10 +230,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 46,
-						"y": 30,
-						"width": 507,
-						"height": 52,
+						"x": 58,
+						"y": 25,
+						"width": 511,
+						"height": 50,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -250,7 +250,7 @@
 					"type": "Join",
 					"properties": {
 						"type": "button",
-						"text": "Join",
+						"text": "Login",
 						"tooltip": "",
 						"initially-visible": true,
 						"enabled": true,
@@ -263,10 +263,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 353,
-						"y": 86,
-						"width": 88,
-						"height": 33,
+						"x": 387,
+						"y": 80,
+						"width": 183,
+						"height": 31,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -279,6 +279,83 @@
 				}
 			],
 			"sid": 468643346565894,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				1,
+				1,
+				1,
+				1
+			],
+			"isTransparent": true,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"renderingMode": "3d",
+			"drawOrder": "z-order",
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"zElevation": 0,
+			"global": false
+		},
+		{
+			"name": "ChatLayer",
+			"overriden": 0,
+			"subLayers": [],
+			"instances": [
+				{
+					"type": "ChatLog",
+					"properties": {
+						"text": "",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 20,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 9,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 38,
+						"y": 132,
+						"width": 670,
+						"height": 533,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				}
+			],
+			"sid": 642263096519592,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,

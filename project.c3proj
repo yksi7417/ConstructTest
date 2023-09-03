@@ -44,7 +44,8 @@
 			"Default_a_cute_animate_girl_that_is_smiling_and_waving_to_welc_",
 			"DreamShaper_v7_anime_room_soft_green_background_",
 			"background",
-			"Join"
+			"Join",
+			"ChatLog"
 		],
 		"subfolders": []
 	},
@@ -62,13 +63,23 @@
 	},
 	"eventSheets": {
 		"items": [
-			"Lobby Events"
+			"Lobby Events",
+			"Playfab Events"
 		],
 		"subfolders": []
 	},
 	"rootFileFolders": {
 		"script": {
-			"items": [],
+			"items": [
+				{
+					"name": "Playfab.js",
+					"type": "application/javascript",
+					"sid": 984706946471390,
+					"script-info": {
+						"purpose": "main"
+					}
+				}
+			],
 			"subfolders": []
 		},
 		"sound": {

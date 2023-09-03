@@ -42,6 +42,27 @@
 				}
 			],
 			"sid": 984757195411724
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Join",
+					"sid": 750621671490177
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "ChatLog",
+					"sid": 114509845495914,
+					"parameters": {
+						"text": "\"Thank you find your interest\r\n\r\nThis page is still work in progress please check back again soon\""
+					}
+				}
+			],
+			"sid": 567937722284611
 		}
 	],
 	"sid": 947980423976024
