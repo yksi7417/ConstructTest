@@ -63,23 +63,13 @@
 	},
 	"eventSheets": {
 		"items": [
-			"Lobby Events",
-			"Playfab Events"
+			"Lobby Events"
 		],
 		"subfolders": []
 	},
 	"rootFileFolders": {
 		"script": {
-			"items": [
-				{
-					"name": "Playfab.js",
-					"type": "application/javascript",
-					"sid": 984706946471390,
-					"script-info": {
-						"purpose": "main"
-					}
-				}
-			],
+			"items": [],
 			"subfolders": []
 		},
 		"sound": {
