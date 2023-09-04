@@ -33,3 +33,7 @@
 
 # Construct 3 
 *.uistate.json
+
+# Libraries 
+
+**/lib/**
