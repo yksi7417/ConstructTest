@@ -15,6 +15,22 @@
 		},
 		{
 			"type": "plugin",
+			"id": "Sparsha_FirebaseAuth",
+			"name": "FirebaseV9 Auth Basic",
+			"author": "Sparsha",
+			"bundled": false,
+			"version": "7.4.0"
+		},
+		{
+			"type": "plugin",
+			"id": "Sparsha_FirebaseSDK",
+			"name": "FirebaseV9 SDK",
+			"author": "Sparsha",
+			"bundled": false,
+			"version": "10.3.0"
+		},
+		{
+			"type": "plugin",
 			"id": "Sprite",
 			"name": "Sprite",
 			"author": "Scirra",
@@ -44,8 +60,12 @@
 			"Default_a_cute_animate_girl_that_is_smiling_and_waving_to_welc_",
 			"DreamShaper_v7_anime_room_soft_green_background_",
 			"background",
-			"Join",
-			"ChatLog"
+			"GoogleLoginButton",
+			"ChatLog",
+			"FirebaseV9SDK",
+			"FirebaseV9AuthBasic",
+			"DisplayImage",
+			"Username"
 		],
 		"subfolders": []
 	},
@@ -57,12 +77,14 @@
 	},
 	"layouts": {
 		"items": [
+			"LoadingScreen",
 			"Lobby"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
+			"LoadingScreenEvents",
 			"Lobby Events"
 		],
 		"subfolders": []
@@ -175,7 +197,7 @@
 		"pixelRounding": false,
 		"zAxisScale": "normalized",
 		"fov": 0.7853981633974483,
-		"useLoaderLayout": false,
+		"useLoaderLayout": true,
 		"fullscreenMode": "scale-outer",
 		"fullscreenQuality": "high",
 		"viewportFit": "auto",
@@ -211,8 +233,8 @@
 		"zNear": 1,
 		"zFar": 10000,
 		"maxSpriteSheetSize": 2048,
-		"loaderStyle": "splash",
-		"preloadSounds": true,
+		"loaderStyle": "percent",
+		"preloadSounds": false,
 		"cordovaiOSScheme": "app",
 		"cordovaAndroidScheme": "https",
 		"autoReloadScriptsOnPreview": false,
@@ -221,5 +243,5 @@
 	},
 	"viewportWidth": 1080,
 	"viewportHeight": 720,
-	"firstLayout": null
+	"firstLayout": "LoadingScreen"
 }

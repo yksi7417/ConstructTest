@@ -31,38 +31,82 @@
 				{
 					"id": "on-start-of-layout",
 					"objectClass": "System",
-					"sid": 712862096595646
+					"sid": 151520999905622
 				}
 			],
 			"actions": [
 				{
-					"id": "set-focused",
-					"objectClass": "NameTextBox",
-					"sid": 891984075934562
+					"id": "popup-oauth-safe",
+					"objectClass": "FirebaseV9AuthBasic",
+					"sid": 179111346506977,
+					"parameters": {
+						"provider": "item1",
+						"button-id": "\"google-oauth\"",
+						"google-prompt-select": false
+					}
 				}
 			],
-			"sid": 984757195411724
+			"sid": 842587128509924
 		},
 		{
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-clicked",
-					"objectClass": "Join",
-					"sid": 750621671490177
+					"id": "is-signed-in",
+					"objectClass": "FirebaseV9AuthBasic",
+					"sid": 695774542240756
+				},
+				{
+					"id": "trigger-once-while-true",
+					"objectClass": "System",
+					"sid": 430969701268691
 				}
 			],
 			"actions": [
 				{
-					"id": "set-text",
-					"objectClass": "ChatLog",
-					"sid": 114509845495914,
+					"id": "load-image-from-url",
+					"objectClass": "DisplayImage",
+					"sid": 902555521973271,
 					"parameters": {
-						"text": "\"Thank you find your interest\r\n\r\nThis page is still work in progress please check back again soon\""
+						"uri": "FirebaseV9AuthBasic.picURL",
+						"size": "keep-current-size",
+						"cross-origin": "anonymous"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "DisplayImage",
+					"sid": 721554211810918,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "Username",
+					"sid": 151169186930051,
+					"parameters": {
+						"text": "FirebaseV9AuthBasic.userName"
+					}
+				},
+				{
+					"id": "append-text",
+					"objectClass": "ChatLog",
+					"sid": 143761821231486,
+					"parameters": {
+						"text": "FirebaseV9AuthBasic.userName"
+					}
+				},
+				{
+					"id": "append-text",
+					"objectClass": "ChatLog",
+					"sid": 639734334661327,
+					"parameters": {
+						"text": "\", Welcome to Canto Mahjong Lobby!  \\n\""
 					}
 				}
 			],
-			"sid": 567937722284611
+			"sid": 376066880352293
 		}
 	],
 	"sid": 947980423976024

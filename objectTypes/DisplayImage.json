@@ -1,8 +1,8 @@
 {
-	"name": "DreamShaper_v7_anime_room_soft_green_background_",
+	"name": "DisplayImage",
 	"plugin-id": "Sprite",
-	"sid": 895219720582465,
-	"isGlobal": true,
+	"sid": 696412935819040,
+	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
 	"effectTypes": [],
@@ -11,20 +11,20 @@
 			{
 				"frames": [
 					{
-						"width": 1024,
-						"height": 768,
+						"width": 250,
+						"height": 250,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 1747171,
+						"imageSpriteId": 360247,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 990726227027586,
-				"name": "Default",
+				"sid": 843854771499395,
+				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,

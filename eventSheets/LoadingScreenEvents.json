@@ -1,0 +1,27 @@
+{
+	"name": "LoadingScreenEvents",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-loaded",
+					"objectClass": "FirebaseV9SDK",
+					"sid": 287515558325564
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-nextprevious-layout",
+					"objectClass": "System",
+					"sid": 529230198887271,
+					"parameters": {
+						"which": "next"
+					}
+				}
+			],
+			"sid": 799280951179618
+		}
+	],
+	"sid": 865356548811533
+}
